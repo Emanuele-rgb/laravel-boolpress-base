@@ -18,6 +18,6 @@ class InfoUser extends Model
 
     public function user()
     {
-        return $this->belogsTo('App\User');
+        return $this->belongsTo('App\User');
     }
 }
